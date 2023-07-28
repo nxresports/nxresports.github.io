@@ -1486,7 +1486,7 @@ input, select, textarea {
 		-ms-transition: opacity 0.25s ease-in-out;
 		transition: opacity 0.25s ease-in-out;
 		display: inline-block;
-		border: solid 6px #ebebeb !important;
+		/*border: solid 6px #ebebeb !important;*/
 	}
 
 		.image:hover {
@@ -1523,6 +1523,7 @@ input, select, textarea {
 
 			.image.centered img {
 				margin: 0 auto;
+				height: 192px;
 				width: auto;
 			}
 
@@ -1873,6 +1874,21 @@ input, select, textarea {
 
 	.box.excerpt .third {
 		background: #CD7F32;
+		color: #fff;
+		font-weight: 400;
+		text-transform: uppercase;
+		border-radius: 4px;
+		border: 0;
+		box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
+		display: inline-block;
+		font-size: 0.85em;
+		letter-spacing: 2px;
+		padding: 0.25em 1em 0.25em 1em;
+		margin: 0 0 2.5em 0;
+	}
+
+	.box.excerpt .outside {
+		background: #FA8072;
 		color: #fff;
 		font-weight: 400;
 		text-transform: uppercase;
